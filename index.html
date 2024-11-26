@@ -3,28 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Egg Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <form>
-        <fieldset>
-            <legend>Which chickens laid eggs today?</legend>
-            <label><input type="checkbox" name="chicken-name" value="Hattie">Hattie</label><br>
-            <label><input type="checkbox" name="chicken-name" value="George">George</label><br>
-            <label><input type="checkbox" name="chicken-name" value="Mrs. Henderson">Mrs. Henderson</label><br>
-            <label><input type="checkbox" name="chicken-name" value="Swamp Chicken">Swamp Chicken</label><br>
-            <label><input type="checkbox" name="chicken-name" value="Penelope">Penelope</label><br>
-        </fieldset>
-    </form>
+    <div class="container-1">
+        <form>
+            <fieldset class="chicken-list">
+                <legend>Which chickens laid eggs today?</legend>
+                <label><input type="checkbox" name="chicken-name" value="Hattie">Hattie</label><br>
+                <label><input type="checkbox" name="chicken-name" value="George">George</label><br>
+                <label><input type="checkbox" name="chicken-name" value="Mrs. Henderson">Mrs. Henderson</label><br>
+                <label><input type="checkbox" name="chicken-name" value="Swamp Chicken">Swamp Chicken</label><br>
+                <label><input type="checkbox" name="chicken-name" value="Penelope">Penelope</label><br>
+            </fieldset>
+        </form>
+    
     <br>
     <form>
-        <fieldset>Any notes for today?
+        <fieldset>
+            <legend>Any notes for today?</legend>
         <label><br><br>
             Notes:
-            <input name="notes"/><br><br>
+            <textarea name="notes"></textarea><br>
             <button>Save</button>
         </label>
     </fieldset>
     </form>
+</div>
 </body>
 </html>

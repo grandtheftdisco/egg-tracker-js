@@ -1,0 +1,23 @@
+*{
+    font-family: "raleway";
+}
+
+
+.container-1 {
+    display: grid;
+    width: 100%;
+    justify-items: center;
+}
+
+fieldset {
+    display: grid;
+    border: 5px solid salmon; 
+}
+
+.chicken-list {
+    align-content: center;
+}
+
+legend {
+    font-weight: bolder;
+}
